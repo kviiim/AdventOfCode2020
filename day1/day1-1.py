@@ -1,4 +1,4 @@
-input = open("advent2020/day1input.txt","r")
+input = open("advent2020/day1/day1input.txt","r")
 nums = input.readlines()
 for num1 in nums:
     num1int = int(num1.strip('\n'))

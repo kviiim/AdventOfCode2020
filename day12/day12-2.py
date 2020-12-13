@@ -45,6 +45,4 @@ for direction in directions:
         x += direction[1]
     elif direction[0] == 'W':
         x -= direction[1]
-    print(x, y, shipX, shipY,)
-
 print(abs(shipX) + abs(shipY))
